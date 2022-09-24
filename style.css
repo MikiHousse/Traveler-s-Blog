@@ -1,0 +1,114 @@
+body {
+    align-content: start;
+    background: #F2F2F2;
+    min-width: 1600px;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color:black;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0 none;
+    clip-path: (100%);
+}
+
+/* Ширина контейнера и автоматический отступ для центрирования */
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    min-height: 80px;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.menu-item {
+    margin-right: 30px;
+}
+
+.menu-item-link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+
+}
+
+.logo {
+    margin-top: 10px;
+    padding-left: 100px;
+}
+
+.blog-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 130%;
+    color: #131313;
+}
+
+.blog-previos {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: #131313;
+}
+
+.blog {
+    margin-top: 86px;
+    display: grid;
+    grid-template-columns: 536px 2fr;
+    column-gap: 40px;
+}
+
+.blog-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: #131313;
+}
+
+
+
+/* .article-blog {
+    grid-column: 1 / -1;
+    gap: 50px 40px;
+}
+
+.image-wide {
+    grid-column: span 3;
+} */
