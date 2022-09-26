@@ -88,7 +88,7 @@ body {
     color: #131313;
 }
 
-.blog {
+.blog-one {
     margin-top: 86px;
     display: grid;
     grid-template-columns: 536px 2fr;
@@ -96,10 +96,53 @@ body {
 }
 
 .blog-text {
+    margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 135%;
     color: #131313;
+}
+
+.blog-two {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 536px 536px 1fr;
+    column-gap: 40px;
+}
+
+.blog-three {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 536px 536px 1fr;
+    column-gap: 40px;
+}
+
+.blog-four {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 536px 536px 1fr;
+    column-gap: 40px;
+}
+
+.image-wide {
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
